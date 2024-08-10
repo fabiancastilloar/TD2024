@@ -1,0 +1,61 @@
+.padre {
+    text-align: center; 
+   }
+   
+ .hijo-inline-block {
+     background-color: rgb(84, 177, 75);
+     padding: 10px;
+     margin: 10px;
+     display: inline-block;
+   }
+ 
+ 
+ 
+   .card-deck {
+    margin: 20px;
+}
+
+/*
+.contenedor_Icono{
+  text-align: right;
+ 
+  border: 2px solid red;
+}
+*/
+
+.contenedor-boton{
+ text-align:right;
+}
+ 
+        /* CSS para posicionar el ícono a la derecha */
+     
+        #icon-container { 
+          font-size: 26px; /* Tamaño del ícono */
+          color: #007bff; /* Color del ícono */
+          text-align: right;
+ 
+      }
+
+
+      .icon-wrapper {
+          position:relative; /* Contenedor relativo para el número */           
+          display: inline;
+      }
+     
+
+      .icon-wrapper .badge {
+          position: absolute; /* Posiciona el número relativo al ícono */
+          top:   5px; /* Ajusta la posición vertical del número */
+          right:  35px; /* Ajusta la posición horizontal del número */
+          background-color: red; /* Fondo del número */
+          color: white; /* Color del número */
+          border-radius: 50%; /* Hace el número redondo */
+          padding: 2px 6px; /* Espaciado alrededor del número */
+          font-size: 20x; /* Tamaño del texto del número */
+          font-weight: bold; /* Pone el número en negrita */
+      }
+
+              /* Oculta el botón inicialmente */
+              #miBoton {
+                display: none;
+            }
